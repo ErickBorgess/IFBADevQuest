@@ -3,7 +3,7 @@ package com.ifbadevquest.challenge;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ComponenteQuiz {
+public class ComponenteQuiz implements ComponenteDesafio {
     private final List<Questao> questoes = new ArrayList<>();
 
     public void adicionarQuestao(Questao questao) {

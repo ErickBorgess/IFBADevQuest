@@ -8,7 +8,6 @@ import com.ifbadevquest.challenge.strategy.PontuacaoStrategy;
 public class Desafio {
     private final String titulo;
     private final List<ComponenteDesafio> componentes = new ArrayList<>();
-    private final List<ComponenteQuiz> componentesQuiz = new ArrayList<>();
     private PontuacaoStrategy pontuacaoStrategy; 
 
     public Desafio(String titulo) {
@@ -36,10 +35,6 @@ public class Desafio {
             throw new IllegalStateException("Estratégia de Pontuação nao foi definida!");
         }
         return pontuacaoStrategy.calcularPontos(this, resposta);
-    }
-
-    public void adicionarComponente(ComponenteQuiz componente) {
-        this.componentesQuiz.add(componente);
     }
 
 }
