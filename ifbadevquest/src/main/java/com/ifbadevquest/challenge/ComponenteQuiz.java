@@ -14,6 +14,7 @@ public class ComponenteQuiz implements ComponenteDesafio {
         return questoes;
     }
 
+    @Override
     public String getTipo() {
         return "Quiz";
     }

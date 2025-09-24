@@ -10,6 +10,7 @@ import com.ifbadevquest.challenge.Questao;
 public class AcertoSimplesStrategy implements PontuacaoStrategy {
     private final int PONTOS_POR_ACERTO = 10;
 
+    @Override
     @SuppressWarnings("unchecked")
     public int calcularPontos(Desafio desafio, Object resposta) {
         // Utilização de Map para representar as respostas do usuário
