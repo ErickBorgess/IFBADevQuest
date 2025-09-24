@@ -1,4 +1,4 @@
-package com.ifbadevquest.gamification;
+package com.ifbadevquest.gamification.conquest;
 
 import java.util.ArrayList;
 import java.util.List;

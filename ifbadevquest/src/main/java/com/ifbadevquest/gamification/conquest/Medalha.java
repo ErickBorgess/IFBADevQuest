@@ -1,4 +1,4 @@
-package com.ifbadevquest.gamification;
+package com.ifbadevquest.gamification.conquest;
 
 public class Medalha implements ConquistaComponent {
     private String nome;

@@ -2,13 +2,12 @@ package com.ifbadevquest;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import com.ifbadevquest.challenge.ComponenteQuiz;
 import com.ifbadevquest.challenge.Desafio;
 import com.ifbadevquest.challenge.Questao;
 import com.ifbadevquest.challenge.strategy.AcertoSimplesStrategy;
-import com.ifbadevquest.gamification.ConjuntoDeMedalhas;
-import com.ifbadevquest.gamification.Medalha;
+import com.ifbadevquest.gamification.conquest.ConjuntoDeMedalhas;
+import com.ifbadevquest.gamification.conquest.Medalha;
 
 public class Main {
     public static void main(String[] args) {
