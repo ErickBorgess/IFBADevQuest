@@ -6,6 +6,10 @@ import com.ifbadevquest.challenge.ComponenteQuiz;
 import com.ifbadevquest.challenge.Desafio;
 import com.ifbadevquest.challenge.Questao;
 import com.ifbadevquest.challenge.strategy.AcertoSimplesStrategy;
+import com.ifbadevquest.gamification.bonus.CalculadorDePontos;
+import com.ifbadevquest.gamification.bonus.CalculadorDePontosBase;
+import com.ifbadevquest.gamification.bonus.DoubleXPDecorator;
+import com.ifbadevquest.gamification.bonus.StreakBonusDecorator;
 import com.ifbadevquest.gamification.conquest.ConjuntoDeMedalhas;
 import com.ifbadevquest.gamification.conquest.Medalha;
 
@@ -59,5 +63,6 @@ public class Main {
 
         // ExibE tudo com uma única chamada
         totalConquistas.exibir(); */
+
     }
 }

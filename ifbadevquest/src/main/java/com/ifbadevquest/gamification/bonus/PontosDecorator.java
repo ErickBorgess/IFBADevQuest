@@ -7,5 +7,8 @@ public abstract class PontosDecorator implements CalculadorDePontos {
         this.calculadorBase = calculadorBase;
     }
 
-
+    @Override
+    public int calcularPontos() {
+        return calculadorBase.calcularPontos();
+    }
 }
