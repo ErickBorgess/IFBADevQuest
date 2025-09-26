@@ -66,10 +66,10 @@ class GeradorCSV {
     public static void gerar(String caminho, DadosRelatorio dados) throws IOException {
         String nomeArquivo = caminho + "relatorio-" + dados.nomeJogador + ".csv";
         try (FileWriter writer = new FileWriter(nomeArquivo)) {
-            writer.write("Chave,Valor\n");
-            writer.write("Nome," + dados.nomeJogador + "\n");
-            writer.write("PontosTotais," + dados.pontosTotais + "\n");
-            writer.write("QuantidadeMedalhas," + dados.totalMedalhas + "\n");
+            writer.write("Chave: Valor\n");
+            writer.write("Nome:" + dados.nomeJogador + "\n");
+            writer.write("PontosTotais: " + dados.pontosTotais + "\n");
+            writer.write("QuantidadeMedalhas: " + dados.totalMedalhas + "\n");
         }
         System.out.println("[Subsistema] Relatório " + nomeArquivo + " gerado com sucesso!");
     }
