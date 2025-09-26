@@ -2,7 +2,6 @@ package com.ifbadevquest.user;
 
 public class SessaoManager {
     private static SessaoManager instancia;
-    private Usuario usuarioLogado;
 
     private SessaoManager() {
         // Construtor privado para evitar instância externa

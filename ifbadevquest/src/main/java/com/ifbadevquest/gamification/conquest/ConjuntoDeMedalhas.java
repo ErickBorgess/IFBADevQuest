@@ -19,6 +19,10 @@ public class ConjuntoDeMedalhas implements ConquistaComponent {
         this.conquistas.remove(conquista);
     }
 
+    public List<ConquistaComponent> getConquistas() {
+        return this.conquistas;
+    }
+
     @Override
     public String getNome() {
         return nome;

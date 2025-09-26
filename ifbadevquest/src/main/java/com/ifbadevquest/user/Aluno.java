@@ -6,11 +6,12 @@ public class Aluno implements Usuario {
     private String nome;
     private String tipo;
     private int pontosTotais;
-    private final ConjuntoDeMedalhas muralDeConquistas = new ConjuntoDeMedalhas("Mural de Conquistas de " + nome);
+    private final ConjuntoDeMedalhas muralDeConquistas;
 
     public Aluno(String nome) {
         this.nome = nome;
         this.tipo = "Aluno";
+        this.muralDeConquistas = new ConjuntoDeMedalhas("Mural de Conquistas de " + this.nome);
     }
 
     public void adicionarPontos(int pontos) {
